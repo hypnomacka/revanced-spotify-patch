@@ -108,3 +108,9 @@ publishing {
         }
     }
 }
+
+java {
+    toolchain {
+        implementation = JvmImplementation.J9
+    }
+}
