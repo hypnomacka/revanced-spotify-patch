@@ -1,31 +1,109 @@
-# 👋🧩 ReVanced Patches template
+<p align="center">
+  <picture>
+    <source
+      width="256px"
+      media="(prefers-color-scheme: dark)"
+      srcset="assets/revanced-headline/revanced-headline-vertical-dark.svg"
+    >
+    <img 
+      width="256px"
+      src="assets/revanced-headline/revanced-headline-vertical-light.svg"
+    >
+  </picture>
+  <br>
+  <a href="https://revanced.app/">
+     <picture>
+         <source height="24px" media="(prefers-color-scheme: dark)" srcset="assets/revanced-logo/revanced-logo.svg" />
+         <img height="24px" src="assets/revanced-logo/revanced-logo.svg" />
+     </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/ReVanced">
+       <picture>
+           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/dMMmCrW/Git-Hub-Mark.png" />
+           <img height="24px" src="https://i.ibb.co/9wV3HGF/Git-Hub-Mark-Light.png" />
+       </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="http://revanced.app/discord">
+       <picture>
+           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
+           <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
+       </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://reddit.com/r/revancedapp">
+       <picture>
+           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032351-9d9d5619-8ef7-470a-9eec-2744ece54553.png" />
+           <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032351-9d9d5619-8ef7-470a-9eec-2744ece54553.png" />
+       </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://t.me/app_revanced">
+      <picture>
+         <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032213-faf25ab8-0bc3-4a94-a730-b524c96df124.png" />
+         <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032213-faf25ab8-0bc3-4a94-a730-b524c96df124.png" />
+      </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://x.com/revancedapp">
+      <picture>
+         <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/93124920/270180600-7c1b38bf-889b-4d68-bd5e-b9d86f91421a.png">
+         <img height="24px" src="https://user-images.githubusercontent.com/93124920/270108715-d80743fa-b330-4809-b1e6-79fbdc60d09c.png" />
+      </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://www.youtube.com/@ReVanced">
+      <picture>
+         <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032714-c51c7492-0666-44ac-99c2-f003a695ab50.png" />
+         <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032714-c51c7492-0666-44ac-99c2-f003a695ab50.png" />
+     </picture>
+   </a>
+   <br>
+   <br>
+   Continuing the legacy of Vanced
+</p>
 
-This is a template for creating a new ReVanced Patches repository.  
-The repository can have multiple patches, and patches from other repositories can be used together.
+# 🧩 ReVanced Patches
 
-For an example repository, see [ReVanced Patches](https://github.com/revanced/revanced-patches).
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ReVanced/revanced-patches/release.yml)
+![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
 
-##  🚀 Get started 
+This repository contains a collection of ReVanced Patches.
 
-To start using this template, follow these steps:
+## ❓ About
 
-1. [Create a new repository using this template](https://github.com/new?template_name=revanced-patches-template&template_owner=ReVanced)
-2. Set up the [build.gradle.kts](build.gradle.kts) file (Match the [group of the project](build.gradle.kts#L8), [manifest attributes](build.gradle.kts#L35-L43), and the [POM](build.gradle.kts#L84-L106) that will be published to yours)
-3. Update the dependencies in the [libs.versions.toml](gradle/libs.versions.toml) file
-4. [Add a secret](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) to your repository named [REPOSITORY_PUSH_ACCESS](.github/workflows/release.yml#L47) containing a GitHub access token with [push access](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md#authentication) 
-5. Set up the [README.md](README.md) file[^1] (e.g title, description, license, short summary of the patches that are included in the repository)
+Patches are small modifications to Android apps that allow you to change the behaviour of or add new features, 
+block ads, customize the appearance, and much more.
 
-🎉 You are now ready to start creating patches!
+## 💪 Features
 
-## 🔘 Optional steps
+Some of the features the patches provide are:
 
-You can also add the following things to the repository:
+* 🚫 **Block ads**: Say goodbye to ads
+* ⭐ **Customize your app**: Personalize the appearance of apps with various layouts and themes
+* 🪄 **Add new features**: Extend the functionality of apps with lots of new features
+* ⚙️ **Miscellaneous and general purpose**: Rename packages, enable debugging, disable screen capture restrictions, 
+export activities, etc.
+* ✨ **And much more!**
 
-- [Issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)[^2]
-- Contribution guidelines[^3]
-- Documentation, if you want to publish your patches as a library[^4]
+For a full list of all available patches, visit [revanced.app/patches](https://revanced.app/patches).
 
-[^1]: [Example README.md file](https://github.com/ReVanced/revanced-patches/blob/main/README.md)
-[^2]: [Example issue templates](https://github.com/ReVanced/revanced-patches/tree/main/.github/ISSUE_TEMPLATE)
-[^3]: [Example contribution guidelines](https://github.com/ReVanced/revanced-patches/blob/main/CONTRIBUTING.md)
-[^4]: [Example documentation](https://github.com/ReVanced/revanced-patches/tree/docs/docs)
+## 🚀 How to get started
+
+You can use [ReVanced CLI](https://github.com/ReVanced/revanced-cli) or [ReVanced Manager](https://github.com/ReVanced/revanced-manager) to use ReVanced Patches.
+
+## 📚 Everything else
+
+### 📙 Contributing
+
+Thank you for considering contributing to ReVanced Patches. You can find the contribution guidelines [here](CONTRIBUTING.md).
+
+### 📃 Documentation
+
+The documentation provides the fundamentals of patches and everything necessary to create your own patch from scratch.
+You can find it [here](https://github.com/ReVanced/revanced-patches/tree/docs/docs).
+
+### 🛠️ Building
+
+In order to build ReVanced Patches, you can follow the [ReVanced documentation](https://github.com/ReVanced/revanced-documentation).
+
+## 📜 Licence
+
+ReVanced Patches is licensed under the GPLv3 licence. Please see the [licence file](LICENSE) for more information.
+[tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute and modify ReVanced patches as long as you track changes/dates in source files.
+Any modifications to ReVanced Patches must also be made available under the GPL along with build & install instructions.
